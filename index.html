@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Adeline Latruwe</title>
+    <script src="https://kit.fontawesome.com/672cf66406.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+          <i class="fas fa-bars"></i>
+        </span>
+        <p class="name">Adeline Latruwe</p>
+        <ul class="main-nav" id="js-menu">
+          <li>
+            <a href="#home" class="nav-links">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-links">About</a>
+          </li>
+          <li>
+            <a href="#projects" class="nav-links">Projects</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-links">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- intro -->
+      <article id="home" class="intro wrapper">
+        <p class="text-intro">I am a Software Developer based in Los Angeles.</p>
+        <p class="text-intro">This is my portfolio and I can't wait to hear from you.</p>
+      </article>
+      <!-- about me section -->
+      <article id="about" class="group wrapper about-me">
+        <h3 class="section-title-about">About me</h3>
+        <div class="about-me">
+          <p class="text-details">After a career in HR Management I decided to learn how to code and start a new journey to become a Software Developer. Being new in the tech world and facing many exciting challenges, I can't wait to meet other developers, work on fun projects and grow my skillset.</p>
+          <p class="text-details">When I'm not working on learning computer science concepts or a new programming language I really enjoy spending time outdoors, looking for new places to explore and traveling with my family.</p>
+        </div>
+      </article>
+      <!-- projects section -->
+      <div class="project-bg">
+        <article id="projects" class="group wrapper">
+          <h3 class="section-title">Projects</h3>
+          <div class="section-list">
+            <!-- project 1 -->
+            <div class="list-element">
+              <!-- screenshot of the project and link to the live demo -->
+              <p class="list-title">Project 1</p>
+              <a href="https://pages.github.com/" target="_blank">
+              <img src="images/project.jpg" alt="computer on a desk"></a>
+              <!-- details and link to github repo -->
+              <p class="project-details">This is a description of the Project 1 I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it</p>
+              <a class="project-repo" href="https://github.com/alatruwe" target="_blank">See repository</a>
+            </div>
+            <!-- project 2 -->
+            <div class="list-element">
+              <!-- screenshot of the project and link to the live demo -->
+              <p class="list-title">Project 2</p>
+              <a href="https://pages.github.com/" target="_blank">
+              <img src="images/project.jpg" alt="computer on a desk"></a>
+              <!-- details and link to github repo -->
+              <p class="list-details">This is a description of the Project 2 I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it</p>
+              <a class="project-repo" href="https://github.com/alatruwe" target="_blank">See repository</a>
+            </div>
+            <!-- project 3 -->
+            <div class="list-element">
+              <!-- screenshot of the project and link to the live demo -->
+              <p class="list-title">Project 3</p>
+              <a href="https://pages.github.com/" target="_blank">
+              <img src="images/project.jpg" alt="computer on a desk"></a>
+              <!-- details and link to github repo -->
+              <p class="list-details">This is a description of the Project 3 I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it</p>
+              <a class="project-repo" href="https://github.com/alatruwe" target="_blank">See repository</a>
+            </div>
+          <div>
+        </article>
+      </div>
+      <!-- contact section -->
+      <div class="contact-bg">
+        <article id="contact" class="group wrapper">
+          <h3 class="section-title">Contacts</h3>
+          <div class="section-list">
+            <div class="list-element">
+              <p class="list-title">I'll be glad to answer your questions.</p>
+              <!-- contact form -->
+              <form action="https://formspree.io/f/xleongbz" method="POST">
+                <!-- name input -->
+                <label for="user-name"></label>
+                <input id="user-name" type="text" name="name" placeholder="Name">
+                <!-- email input -->
+                <label for="email"></label>
+                <input id="email" type="email" name="email" placeholder="Email address">
+                <!-- email subject -->
+                <label for="email-subject"></label>
+                <input id="email-subject" type="text" name="subject" placeholder="Subject">
+                <!-- message input -->
+                <label for="form-message"></label>
+                <textarea id="form-message" name="message" placeholder="Your message"></textarea>
+                <!-- submit button -->
+                <button type="submit">Send Message</button>
+              </form>
+            </div>
+            <!-- social media -->
+            <div class="list-element">
+              <p class="list-title">Connect with me!</p>
+              <ul class="social-media-list">
+                <li>
+                  <a href="https://github.com/alatruwe" target="_blank">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/adeline-latruwe-16804940/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>  
+        </article>
+      </div>
+
+    </main>
+    <footer>
+      <p>&copy; adeline latruwe</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

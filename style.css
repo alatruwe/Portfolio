@@ -1,0 +1,272 @@
+body {
+  background-color: #f08e80;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+/* nav bar */
+.navbar {
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  padding-bottom: 10px;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+
+.nav-links {
+  text-decoration: none;
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.main-nav li a {
+  font-size: 25px;
+  color: #fff;
+}
+
+.name {
+  display: inline-block;
+  font-size: 33px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 28px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.active {
+  display: block;
+}
+
+/* footer */
+footer {
+  background-color: black;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+footer p {
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* main content */
+.wrapper {
+  margin: auto;
+  width: 65%;
+}
+
+img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* intro section */
+.intro {
+  padding-bottom: 20px;
+}
+
+.text-intro {
+  font-size: 34px;
+  line-height: 1.5;
+}
+
+/* about-me, projects and contacts */
+.section-title,
+.section-title-about {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  margin-bottom: 5px;
+  padding-bottom: 20px;
+}
+
+.text-details {
+  line-height: 1.5;
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+/* about me section */
+.about-me {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+/* projects section */
+.project-bg {
+  background-color: #fff;
+  color: #6d6d6d;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.list-element {
+  margin: 30px 0 30px 0;
+  padding-bottom: 20px;
+}
+
+.list-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.list-details {
+  margin: 15px 0 15px 0;
+  line-height: 2;
+}
+
+.project-repo {
+  color: #a9a9a9;
+  font-style: italic;
+  font-size: 18px;
+}
+
+/* contact section */
+.contact-bg {
+  background-color: #fdf0e6;
+  color: #000;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.contact-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+/* form */
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+form textarea {
+  height: 15rem;
+  line-height: 1.5;
+}
+
+form button {
+  border-radius: 5px;
+}
+
+/* social media */
+.social-media-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  list-style-type: none;
+  font-size: 40px;
+}
+
+.fa-github,
+.fa-linkedin-in {
+  color: #000;
+}
+
+.fa-github:hover,
+.fa-linkedin-in:hover {
+  color: #a9a9a9;
+}
+
+
+/* deskstop view > 600px */
+@media all and (min-width: 600px) {
+  /* navbar  */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    margin-left: 50px;
+    padding-top: 10px;
+    font-size: 48px;
+  }
+
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-bottom: 22px;
+    margin-top: 23px;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .main-nav li a {
+    font-size: 34px;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+   
+  .navbar-toggle {
+    display: none;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+
+  /* intro */
+  .intro {
+    padding: 75px 0 75px 0;
+  }
+
+  .text-intro {
+    font-size: 50px;
+  }
+
+  /* main content */
+  .section-title,
+  .section-title-about {
+    flex: 1;
+    margin-top: 30px;
+    font-size: 40px;
+  }
+
+  .text-details {
+    font-size: 25px;
+  }
+
+  .about-me,
+  .section-list {
+    flex: 1;
+  }
+
+    /* about me */
+  .section-title-about {
+    margin-top: 11px;
+  }
+
+  /* projects */
+  .list-title {
+    font-size: 35px;
+  }
