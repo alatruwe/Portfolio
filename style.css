@@ -133,6 +133,11 @@ img {
   line-height: 2;
 }
 
+.project-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .project-repo {
   color: #a9a9a9;
   font-style: italic;
@@ -152,7 +157,7 @@ img {
   font-size: 25px;
   margin-top: 5px;
   margin-bottom: 30px;
-  font-style: italic;
+
 }
 
 /* form */
