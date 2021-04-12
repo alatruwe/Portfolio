@@ -186,12 +186,14 @@ form button {
 }
 
 .fa-github,
-.fa-linkedin-in {
+.fa-linkedin-in,
+.fa-at {
   color: #000;
 }
 
 .fa-github:hover,
-.fa-linkedin-in:hover {
+.fa-linkedin-in:hover,
+.fa-at:hover {
   color: #a9a9a9;
 }
 
